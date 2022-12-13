@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background: linear-gradient(98deg,#672280 1.18%,#A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+.header-img{
+  height: 100%;
+  margin-right: 30px;
+}
+.header-title{
+  font-size: 30px;
+  margin-right: auto;
+}
