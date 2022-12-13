@@ -31,3 +31,26 @@ code {
   font-size: 30px;
   margin-right: auto;
 }
+.form{
+  display: flex;
+flex-wrap: wrap;
+}
+.text-input{
+border-radius: 5px;
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+font-size: 20px;
+}
+.meme-button{
+  width: 82%;
+  margin: auto;
+  margin-top: 20px;
+padding: 20px;
+border-radius: 5px;
+background: linear-gradient(98deg,#672280 1.18%,#A626D3 100%);
+color: white;
+font-size: 20px;
+font-weight: 600;
+}
