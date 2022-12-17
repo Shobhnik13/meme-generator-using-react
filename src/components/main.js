@@ -1,6 +1,9 @@
 import React from 'react'
 
 const main = () => {
+  function getMemeImage(){
+    
+  }
   return (
     <div className='form'>
          <input type="text" className='text-input' placeholder='Top text'/>
