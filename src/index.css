@@ -54,3 +54,8 @@ color: white;
 font-size: 20px;
 font-weight: 600;
 }
+.meme-image{
+  /* display: block; */
+  max-width: 70%;
+  margin: auto;
+}
