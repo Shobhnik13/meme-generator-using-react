@@ -9,9 +9,15 @@ function meme(){
 
   const [allMemeImages,setAllMemeImages]=React.useState([])
   React.useEffect(()=>{
-    fetch("https://api.imgflip.com/get_memes")
-    .then(res=>res.json())
-    .then(ans=>setAllMemeImages(ans.data.memes))
+    // fetch("https://api.imgflip.com/get_memes")
+    // .then(res=>res.json())
+    // .then(ans=>setAllMemeImages(ans.data.memes))
+    async function getMemes(){
+      const res=await fetch("https://api.imgflip.com/get_memes")
+       const ans=await res.json()
+       setAllMemeImages(ans.data.memes)
+    }
+    getMemes()
   },[])
   console.log(allMemeImages)
   function getMemeImage(){
